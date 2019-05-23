@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/boltdb/bolt"
-	"github.com/yosssi/boltstore/shared"
+	"github.com/simonkern/boltstore/shared"
+	bolt "go.etcd.io/bbolt"
 )
 
 //##############//

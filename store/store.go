@@ -4,14 +4,15 @@ import (
 	"bytes"
 	"encoding/base32"
 	"encoding/gob"
-	"github.com/gogo/protobuf/proto"
 	"net/http"
 	"strings"
 
-	"github.com/boltdb/bolt"
+	"github.com/gogo/protobuf/proto"
+
 	"github.com/gorilla/securecookie"
 	"github.com/gorilla/sessions"
-	"github.com/yosssi/boltstore/shared"
+	"github.com/simonkern/boltstore/shared"
+	bolt "go.etcd.io/bbolt"
 )
 
 // Store represents a session store.

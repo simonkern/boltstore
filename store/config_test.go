@@ -3,7 +3,7 @@ package store
 import (
 	"testing"
 
-	"github.com/yosssi/boltstore/shared"
+	"github.com/simonkern/boltstore/shared"
 )
 
 func TestConfig_setDefault(t *testing.T) {

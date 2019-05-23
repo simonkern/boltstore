@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/yosssi/boltstore/shared/protobuf"
+	"github.com/simonkern/boltstore/shared/protobuf"
 )
 
 // Session converts the byte slice to the session struct value.
